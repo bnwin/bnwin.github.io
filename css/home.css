@@ -1,3 +1,5 @@
+
+
 #home-content {
   height: 93.8vh;
   background-image: url("../images/bg-transparent.png");
@@ -41,12 +43,11 @@
   }
 
   #home-position {
-    font-size: 22px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 13px;
+    position: fixed;
     text-align: center;
-    width: 325px;
-    top: 240px;
+    left: -245px;
+    top: -30px;
   }
 }
 
