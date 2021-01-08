@@ -13,18 +13,6 @@
   src: url("../fonts/courbd.ttf") format("truetype");
 }
 
-@media (max-width: 500px) {
-  #home-content {
-    background-position-x: -150px;
-  }
-}
-
-@media (max-width: 1200px) {
-  #home-content {
-    background-position-x: -200px;
-  }
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -56,6 +44,11 @@ body {
 #name-header a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  #home-content {
+  }
 }
 
 .cat-header {
@@ -91,4 +84,14 @@ body {
 .selected-cat-header a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  #name-header {
+    font-size: 14px;
+  }
+
+  .cat-header {
+    font-size: 14px;
+  }
 }

@@ -25,3 +25,44 @@
   margin-left: 55%;
   top: 190px;
 }
+
+@media (max-width: 500px) {
+  #home-content {
+    background-image: url("../images/bg-transparent-500px.png");
+  }
+
+  #home-greeting {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    top: 235px;
+  }
+
+  #home-position {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 325px;
+    top: 240px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #home-content {
+    background-image: url("../images/bg-transparent-1200px.png");
+  }
+
+  #home-greeting {
+    top: 300px;
+  }
+
+  #home-position {
+    font-size: 25px;
+    top: 300px;
+    margin-left: 54%;
+    width: 450px;
+  }
+}
