@@ -1,0 +1,27 @@
+#home-content {
+  height: 93.8vh;
+  background-image: url("../images/bg-transparent.png");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-greeting {
+  font-family: "CooperHewitt Bold";
+  color: white;
+  font-size: 70px;
+  position: relative;
+  text-align: left;
+  margin-left: 40%;
+  top: 200px;
+}
+
+#home-position {
+  font-family: "Courier";
+  color: #FFE600;
+  font-size: 24px;
+  position: relative;
+  text-align: left;
+  margin-left: 55%;
+  top: 190px;
+}
