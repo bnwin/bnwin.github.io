@@ -6,18 +6,18 @@
   background-size: cover;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 1200px) {
   .home-content {
-    background-image: url("../images/bg-transparent-500px.png");
+    background-image: url("../images/bg-transparent-1200px.png");
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 500px) {
   .home-content {
-    background-image: url("../images/bg-transparent-1200px.png");
+    background-image: url("../images/bg-transparent-500px.png");
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,26 +28,27 @@
   font-family: "CooperHewitt Bold";
   color: white;
   font-size: 70px;
-  position: relative;
+  position: static;
   text-align: left;
   margin-left: 40%;
-  top: 200px;
+  padding-top: 200px;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 1200px) {
   .home-greeting {
-    font-size: 40px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-greeting {
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 200px;
-    top: 235px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .home-greeting {
-    top: 300px;
   }
 }
 
@@ -55,28 +56,32 @@
   font-family: "Courier";
   color: #FFE600;
   font-size: 22px;
-  position: relative;
+  position: static;
   text-align: left;
   margin-left: 1000px;
-  top: 190px;
-  width: auto;
-}
-
-@media only screen and (max-width: 500px) {
-  #home-position {
-    font-size: 11px;
-    text-align: center;
-    left: -63%;
-    width: 350px;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
   #home-position {
     font-size: 25px;
+    position: static;
+    text-align: center;
+    margin-left: 460px;
+    margin-right: auto;
     top: 300px;
-    margin-left: 54%;
     width: 450px;
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #home-position {
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    width: 350px;
   }
 }
 
@@ -86,29 +91,14 @@
   justify-content: space-between;
   text-align: center;
   width: 80px;
-  position: relative;
-  top: 106px;
-  margin-left: 71%;
+  position: absolute;
+  top: 352px;
+  left: 1350px;
 }
 
 .home-icons {
   width: 35px;
-}
-
-@media only screen and (max-width: 500px) {
-  #home-icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    width: 80px;
-    position: relative;
-    left: -110px;
-  }
-
-  .home-icons {
-    width: 35px;
-  }
+  margin: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -118,13 +108,30 @@
     justify-content: space-between;
     text-align: center;
     width: 80px;
-    position: relative;
-    top: 95px;
-    margin-left: 60%;
+    position: static;
+    margin-left: 625px;
+    margin-right: auto;
+  }
+
+  .home-icons {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #home-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+    position: static;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home-icons {
     width: 50px;
-    margin: 10px;
   }
 }
