@@ -1,26 +1,19 @@
 .home-content {
-  height: 93.5vh;
-  background-image: url("../images/bg-transparent.png");
-  background-origin: content-box;
+  height: 95vh;
+  background-image: url("../images/colorpop-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (max-width: 1200px) {
   .home-content {
-    background-image: url("../images/bg-transparent-1200px.png");
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/colorpop-bg-1200.png");
   }
 }
 
 @media only screen and (max-width: 500px) {
   .home-content {
-    background-image: url("../images/bg-transparent-500px.png");
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/colorpop-bg-500.png");
   }
 }
 
@@ -74,6 +67,19 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  #home-position {
+    font-size: 25px;
+    position: static;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: auto;
+    top: 300px;
+    width: 450px;
+
+  }
+}
+
 @media only screen and (max-width: 500px) {
   #home-position {
     font-size: 18px;
@@ -92,7 +98,7 @@
   text-align: center;
   width: 80px;
   position: absolute;
-  top: 352px;
+  top: 336px;
   left: 1350px;
 }
 
@@ -110,6 +116,23 @@
     width: 80px;
     position: static;
     margin-left: 625px;
+    margin-right: auto;
+  }
+
+  .home-icons {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #home-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 80px;
+    position: static;
+    margin-left: 455px;
     margin-right: auto;
   }
 

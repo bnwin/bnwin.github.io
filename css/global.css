@@ -35,7 +35,6 @@ body {
 .top-nav {
   display: flex;
   justify-content: center;
-  height: 5vh;
   margin: 5px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */

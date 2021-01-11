@@ -1,5 +1,21 @@
 .contact-content {
-  height: 93.5vh;
+  height: 95vh;
+  background-image: url("../images/LA-bg-transparent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-content {
+    background-image: url("../images/LA-bg-transparent-1200.png");
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-content {
+    background-image: url("../images/LA-bg-transparent-500.png");
+  }
 }
 
 #contact-header {
@@ -41,21 +57,28 @@
   margin: 10px;
 }
 
-.content-grid-item:hover {
-  transition: 1s;
-  background-color: #FFE600;
-}
-
 #contact-linkedin {
+  background-color: #0E0E0E;
   background-image: url("../images/nyc-linkedin-bg-transparent.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #contact-email {
+  background-color: #0E0E0E;
   background-image: url("../images/myan-email-bg-transparent.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#contact-linkedin:hover {
+  transition: 1s;
+  background-color: #FFE600;
+}
+
+#contact-email:hover {
+  transition: 1s;
+  background-color: #FFE600;
 }
 
 .centered-text {

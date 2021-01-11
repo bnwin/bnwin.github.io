@@ -1,0 +1,19 @@
+.work-content {
+  height: 95vh;
+  background-image: url("../images/bkb-bg-transparent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+  .work-content {
+    background-image: url("../images/bkb-bg-transparent-1200.png");
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .work-content {
+    background-image: url("../images/bkb-bg-transparent-500.png");
+  }
+}
