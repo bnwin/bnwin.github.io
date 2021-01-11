@@ -78,24 +78,34 @@ body {
   text-decoration: none;
 }
 
-#selected-cat-header {
+.selected-cat-header {
   font-family: "Courier Bold";
   color: white;
+  font-size: 18px;
+  margin: 5px;
 }
 
-#selected-cat-header a {
+.selected-cat-header a {
   color: inherit;
   text-decoration: none;
 }
 
 @media (max-width: 1200px) {
   .cat-header {
-    font-size: 30px;
+    font-size: 24px;
+  }
+
+  .selected-cat-header {
+    font-size: 24px;
   }
 }
 
 @media (max-width: 500px) {
   .cat-header {
+    font-size: 14px;
+  }
+
+  .selected-cat-header {
     font-size: 14px;
   }
 }

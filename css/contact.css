@@ -1,0 +1,153 @@
+.contact-content {
+  height: 93.5vh;
+}
+
+#contact-header {
+  font-family: "CooperHewitt Bold";
+  color: white;
+  font-size: 70px;
+  position: static;
+  text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-subhead {
+  font-family: "Courier";
+  color: #FFE600;
+  font-size: 21px;
+  position: static;
+  text-align: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.content-grid-item {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+}
+
+.content-grid-item:hover {
+  transition: 1s;
+  background-color: #FFE600;
+}
+
+#contact-linkedin {
+  background-image: url("../images/nyc-linkedin-bg-transparent.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-email {
+  background-image: url("../images/myan-email-bg-transparent.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.centered-text {
+  text-align: center;
+  font-family: "CooperHewitt Bold";
+  color: white;
+  font-size: 60px;
+  line-height: 400px;
+}
+
+.centered-text:hover {
+  transition: 1s;
+  font-size: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #contact-header {
+    font-size: 50px;
+    width: 900px;
+  }
+
+  #contact-subhead {
+    font-size: 22px;
+    width: 900px;
+  }
+
+  .content-grid {
+    grid-template-columns: auto;
+  }
+
+  .content-grid-item {
+    width: 900px;
+    height: 400px;
+  }
+
+  .centered-text {
+    line-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #contact-header {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  #contact-subhead {
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .content-grid {
+    grid-template-columns: auto;
+  }
+
+  .content-grid-item {
+    width: 400px;
+    height: 250px;
+  }
+
+  .centered-text {
+    line-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #contact-header {
+    font-size: 30px;
+    width: 340px;
+  }
+
+  #contact-subhead {
+    font-size: 18px;
+    width: 340px;
+  }
+
+  .content-grid {
+    grid-template-columns: auto;
+  }
+
+  .content-grid-item {
+    width: 340px;
+    height: 250px;
+  }
+
+  .centered-text {
+    font-size: 40px;
+    line-height: 250px;
+  }
+
+  .centered-text:hover {
+    transition: 1s;
+    font-size: 60px;
+  }
+}
