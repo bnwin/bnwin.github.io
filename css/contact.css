@@ -1,5 +1,5 @@
 .contact-content {
-  height: 95vh;
+  min-height: 95vh;
   background-image: url("../images/LA-bg-transparent.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,12 +73,12 @@
 
 #contact-linkedin:hover {
   transition: 1s;
-  background-color: #FFE600;
+  background-color: #dbc600;
 }
 
 #contact-email:hover {
   transition: 1s;
-  background-color: #FFE600;
+  background-color: #dbc600;
 }
 
 .centered-text {
@@ -115,7 +115,13 @@
   }
 
   .centered-text {
+    font-size: 60px;
     line-height: 400px;
+  }
+
+  .centered-text:hover {
+    transition: 1s;
+    font-size: 70px;
   }
 }
 
@@ -135,7 +141,7 @@
   }
 
   .content-grid-item {
-    width: 750px;
+    width: 600px;
     height: 350px;
   }
 
@@ -146,7 +152,7 @@
 
   .centered-text:hover {
     transition: 1s;
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -171,7 +177,13 @@
   }
 
   .centered-text {
+    font-size: 50px;
     line-height: 250px;
+  }
+
+  .centered-text:hover {
+    transition: 1s;
+    font-size: 60px;
   }
 }
 
@@ -202,7 +214,7 @@
 
   .centered-text:hover {
     transition: 1s;
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
