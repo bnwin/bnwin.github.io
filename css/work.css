@@ -1,6 +1,6 @@
 .work-content {
   min-height: 95vh;
-  background-image: url("../images/bkb-bg-transparent.png");
+  background-image: url("../images/work-page/bkb-bg-transparent.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,6 +42,15 @@
   width: 600px;
   height: 400px;
   margin: 10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.work-grid-item:hover {
+  border-color: #FFE600;
 }
 
 .centered-text {
@@ -71,7 +80,7 @@
 .work-cat-subhead {
   font-family: "Courier";
   color: #FFE600;
-  font-size: 16px;
+  font-size: 20px;
   position: static;
   text-align: center;
   width: 1200px;
@@ -91,9 +100,153 @@
   background-color: #dbc600;
 }
 
+#projectalone-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/PROJECT-alone/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectalone-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#slashmc-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/slashMC/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#slashmc-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#audiokast-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Audiokast/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#audiokast-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#collabapp-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/CollabApp/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#collabapp-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#contact-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/contact/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#becca-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Becca/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#becca-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#keyforms-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Keyforms/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#keyforms-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#cayuse-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Cayuse x HP Reveal/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cayuse-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#projectnightwalk-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/PROJECT-Nightwalk/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectnightwalk-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#bkbridge-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/People of the Bridge/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bkbridge-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#photonightwalk-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Photo-Nightwalk/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#photonightwalk-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
+#smith9th-tab {
+  background-color: #0E0E0E;
+  background-image: url("../images/work-page/Smith-9th/tabprev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smith9th-tab:hover {
+  transition: 1s;
+  background-color: #595959;
+}
+
 @media only screen and (max-width: 1200px) {
   .work-content {
-    background-image: url("../images/bkb-bg-transparent-1200.png");
+    background-image: url("../images/work-page/bkb-bg-transparent-1200.png");
   }
 
   #work-header {
@@ -179,7 +332,7 @@
 
 @media only screen and (max-width: 500px) {
   .work-content {
-    background-image: url("../images/bkb-bg-transparent-500.png");
+    background-image: url("../images/work-page/bkb-bg-transparent-500.png");
   }
 
   #work-header {

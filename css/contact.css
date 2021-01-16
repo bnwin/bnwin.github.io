@@ -1,20 +1,20 @@
 .contact-content {
   min-height: 95vh;
-  background-image: url("../images/LA-bg-transparent.png");
+  background-image: url("../images/contact-page/LA-bg-transparent.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (max-width: 1200px) {
   .contact-content {
-    background-image: url("../images/LA-bg-transparent-1200.png");
+    background-image: url("../images/contact-page/LA-bg-transparent-1200.png");
 
   }
 }
 
 @media only screen and (max-width: 500px) {
   .contact-content {
-    background-image: url("../images/LA-bg-transparent-500.png");
+    background-image: url("../images/contact-page/LA-bg-transparent-500.png");
   }
 }
 
@@ -42,7 +42,7 @@
 
 .content-grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -52,33 +52,42 @@
   border-style: solid;
   border-width: 5px;
   border-color: white;
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   margin: 10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.content-grid-item:hover {
+  border-color: #FFE600;
 }
 
 #contact-linkedin {
   background-color: #0E0E0E;
-  background-image: url("../images/nyc-linkedin-bg-transparent.png");
+  background-image: url("../images/contact-page/nyc-linkedin-bg-transparent.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #contact-email {
   background-color: #0E0E0E;
-  background-image: url("../images/myan-email-bg-transparent.png");
+  background-image: url("../images/contact-page/myan-email-bg-transparent.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #contact-linkedin:hover {
   transition: 1s;
-  background-color: #dbc600;
+  background-color: #595959;
 }
 
 #contact-email:hover {
   transition: 1s;
-  background-color: #dbc600;
+  background-color: #595959;
 }
 
 .centered-text {
@@ -86,7 +95,7 @@
   font-family: "CooperHewitt Bold";
   color: white;
   font-size: 60px;
-  line-height: 400px;
+  line-height: 300px;
 }
 
 .centered-text:hover {

@@ -1,34 +1,75 @@
 .about-content {
   height: 95vh;
-  background-image: url("../images/nycpixel-bg-transparent.png");
+  background-image: url("../images/about-page/nycpixel-bg-transparent.png");
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 1200px) {
   .about-content {
-    background-image: url("../images/nycpixel-bg-transparent-1200.png");
+    background-image: url("../images/about-page/nycpixel-bg-transparent-1200.png");
   }
 }
 
-#about-header {
-  font-family: "CooperHewitt Bold";
-  color: white;
-  font-size: 70px;
-  position: static;
-  text-align: center;
-  width: 700px;
+.about-card {
+  display: grid;
+  grid-template-columns: 30vw 50vw;
   margin-left: auto;
   margin-right: auto;
 }
 
-#about-subhead {
+.card-image {
+  height: 60vh;
+  background-image: url("../images/about-page/card-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.card-body-header {
   font-family: "Courier";
   color: #FFE600;
-  font-size: 21px;
-  position: static;
-  text-align: center;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 40px;
+}
+
+.card-body {
+  font-family: "CooperHewitt";
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.5px;
+  line-height: 225%;
+  background-color: #0E0E0E;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-card {
+    display: grid;
+    grid-template-columns: 80vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-card {
+    grid-template-columns: 95vw;
+    margin-top: 15px;
+  }
+
+  .card-body-header {
+    font-size: 30px;
+  }
+
+  .card-body {
+    font-size: 18px;
+    padding: 30px;
+  }
 }
